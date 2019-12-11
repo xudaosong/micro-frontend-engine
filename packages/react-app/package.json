@@ -15,7 +15,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "http://172.24.185.20:4873/"
+    "registry": "https://registry.npm.taobao.org/"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,6 @@
   },
   "devDependencies": {
     "webpack": "4.41.2"
-  }
+  },
+  "gitHead": "e9cbe680a95f537edfb0aa916cd8c85f457f8cfd"
 }
