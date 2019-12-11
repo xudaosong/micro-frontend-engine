@@ -1,0 +1,20 @@
+{
+  "name": "micro-frontend-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xudaosong/micro-frontend-engine.git",
+  "author": "xudaosong <xudaosong@leedarson.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "prerelease": "yarn lerna version --conventional-commits --conventional-prerelease && yarn lerna publish from-package",
+    "release": "yarn lerna version --conventional-commits --conventional-graduate && yarn lerna publish from-package"
+  },
+  "devDependencies": {
+    "lerna": "3.19.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "init": {
+      "independent": true,
+      "exact": true,
+      "registry": "http://172.24.185.20:4873/"
+    },
+    "create": {
+      "yes": false,
+      "esModule": true
+    },
+    "add": {
+      "exact": true
+    },
+    "clean": {
+      "yes": true
+    },
+    "exec": {
+      "concurrency": 1
+    },
+    "version": {
+      "allowBranch": "master"
+    },
+    "publish": {
+      "allowBranch": "master",
+      "exact": true,
+      "message": "chore(release): publish",
+      "registry": "http://172.24.185.20:4873/"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ]
+}
