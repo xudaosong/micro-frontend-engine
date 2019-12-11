@@ -6,7 +6,7 @@
   "homepage": "https://github.com/xudaosong/micro-frontend-engine#readme",
   "license": "MIT",
   "main": "dist/react-app.js",
-  "module": "dist/react-app.module.js",
+  "module": "dist/react-app.js",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -15,7 +15,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "http://172.24.185.20:4873/"
   },
   "repository": {
     "type": "git",
