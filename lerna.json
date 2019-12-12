@@ -6,7 +6,7 @@
     "init": {
       "independent": true,
       "exact": true,
-      "registry": "https://registry.npmjs.org/"
+      "registry": "http://172.24.185.20:4873/"
     },
     "create": {
       "yes": false,
@@ -28,7 +28,7 @@
       "allowBranch": "master",
       "exact": true,
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org/"
+      "registry": "http://172.24.185.20:4873/"
     }
   },
   "packages": [

@@ -15,8 +15,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://172.24.185.20:4873/"
   },
   "repository": {
     "type": "git",
@@ -35,5 +34,5 @@
   "devDependencies": {
     "webpack": "4.41.2"
   },
-  "gitHead": "70eb27c0850bfd0cc7177edee7485d7bf5a14d46"
+  "gitHead": "c74b3aee32e148df4ba066825469371713e8f598"
 }
