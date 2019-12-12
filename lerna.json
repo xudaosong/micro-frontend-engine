@@ -6,7 +6,7 @@
     "init": {
       "independent": true,
       "exact": true,
-      "registry": "https://registry.npm.taobao.org/"
+      "registry": "https://registry.npmjs.org/"
     },
     "create": {
       "yes": false,
@@ -28,7 +28,7 @@
       "allowBranch": "master",
       "exact": true,
       "message": "chore(release): publish",
-      "registry": "https://registry.npm.taobao.org/"
+      "registry": "https://registry.npmjs.org/"
     }
   },
   "packages": [
