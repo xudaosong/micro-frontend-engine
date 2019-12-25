@@ -1,9 +1,7 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "fileheader.tpl": "/*\r\n * @Author: {author}\r\n * @Date: {createTime}\r\n*/\r\n",
+  "fileheader.tpl": "/*\r\n * @author: {author}\r\n * @date: {createTime}\r\n*/\r\n",
   "files.eol": "\n",
-  "cSpell.words": [
-    "xudaosong"
-  ]
+  "cSpell.words": ["xudaosong"]
 }

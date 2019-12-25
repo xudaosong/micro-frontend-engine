@@ -2,12 +2,12 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    "react-app": "./src/react-app.js"
+    "react-app": "./src/react-app.jsx"
   },
 
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, "release"),
+    path: path.resolve(__dirname, "dist"),
     libraryTarget: "amd",
     library: "reactApp"
   },
@@ -16,8 +16,8 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        use: ["babel-loader?cacheDirectory"],
-        exclude: /node_modules/
+        exclude: [path.resolve(__dirname, 'node_modules')],
+        loader: 'babel-loader',
       },
       {
         test: /\.(png|jpg|gif)$/,
@@ -25,7 +25,7 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              publicPath: "/app1/"
+              publicPath: "/assets/"
             }
           }
         ]

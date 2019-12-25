@@ -1,12 +1,12 @@
 {
-  "name": "@xudaosong/react-app",
-  "version": "1.0.7-alpha.6",
-  "description": "React micro frontend application",
+  "name": "@xudaosong/vue-app",
+  "version": "1.0.1-alpha.0",
+  "description": "Vue micro frontend application",
   "author": "xudaosong <xudaosong@leedarson.com>",
   "homepage": "https://github.com/xudaosong/micro-frontend-engine#readme",
   "license": "MIT",
-  "main": "dist/react-app.js",
-  "module": "dist/react-app.js",
+  "main": "dist/vue-app.js",
+  "module": "dist/vue-app.js",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -28,20 +28,13 @@
     "url": "https://github.com/xudaosong/micro-frontend-engine/issues"
   },
   "dependencies": {
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "single-spa-vue": "1.5.4",
+    "vue": "2.6.10"
   },
   "devDependencies": {
-    "@babel/core": "7.7.5",
-    "@babel/preset-env": "7.7.6",
-    "@babel/preset-react": "7.7.4",
-    "babel-loader": "8.0.6",
     "rollup": "1.27.10",
-    "rollup-plugin-babel": "4.3.3",
-    "rollup-plugin-node-resolve": "5.2.0",
-    "single-spa-react": "2.10.4",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.10"
-  },
-  "gitHead": "c74b3aee32e148df4ba066825469371713e8f598"
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-vue": "5.1.4",
+    "vue-template-compiler": "2.6.10"
+  }
 }

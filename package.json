@@ -9,6 +9,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "commit": "git-cz",
     "prerelease": "yarn lerna version --conventional-commits --conventional-prerelease && yarn lerna publish from-package",
