@@ -5,6 +5,7 @@
   "repository": "https://github.com/xudaosong/micro-frontend-engine.git",
   "author": "xudaosong <xudaosong@leedarson.com>",
   "license": "MIT",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
