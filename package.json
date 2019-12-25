@@ -17,6 +17,7 @@
   },
   "scripts": {
     "commit": "git-cz",
+    "lint": "eslint . --ext .js,.jsx",
     "prerelease": "yarn lerna version --conventional-commits --conventional-prerelease && yarn lerna publish from-package",
     "release": "yarn lerna version --conventional-commits --conventional-graduate && yarn lerna publish from-package"
   },

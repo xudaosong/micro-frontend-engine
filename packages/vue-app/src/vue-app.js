@@ -4,6 +4,18 @@ import App from "./App.vue";
 
 Vue.config.productionTip = false;
 
+function createDomElement() {
+  // Make sure there is a div for us to render into
+  let el = document.getElementById("vue-app");
+
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "vue-app";
+    document.body.appendChild(el);
+  }
+  return el;
+}
+
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
@@ -20,15 +32,3 @@ export function mount(props) {
 }
 
 export const unmount = [vueLifecycles.unmount];
-
-function createDomElement() {
-  // Make sure there is a div for us to render into
-  let el = document.getElementById("vue-app");
-
-  if (!el) {
-    el = document.createElement("div");
-    el.id = "vue-app";
-    document.body.appendChild(el);
-  }
-  return el;
-}
