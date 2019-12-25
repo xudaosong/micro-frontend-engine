@@ -7,4 +7,5 @@ yarn-error.log
 jira.config.json
 
 # Dependency directories
-node_modules/
+coverage
+node_modules
