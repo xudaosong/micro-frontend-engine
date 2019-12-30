@@ -4,9 +4,16 @@
   "fileheader.tpl": "/*\r\n * @author: {author}\r\n * @date: {createTime}\r\n*/\r\n",
   "files.eol": "\n",
   "cSpell.words": [
+    "Interop",
+    "Serializers",
+    "automock",
     "commitizen",
+    "downlevel",
+    "esnext",
     "jira",
     "lcov",
+    "typesystem",
+    "unmocked",
     "xudaosong"
   ]
 }

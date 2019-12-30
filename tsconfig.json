@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Allow default imports from modules with no default export. This does not affect code emit, just type checking.
+    "allowSyntheticDefaultImports": true,
+    // Generates corresponding .d.ts file.
+    "declaration": true,
+    // Provide full support for iterables in for..of, spread and destructuring when targeting ES5 or ES3.
+    "downlevelIteration": true,
+    // Emit __importStar and __importDefault helpers for runtime babel ecosystem compatibility and enable --allowSyntheticDefaultImports for typesystem compatibility.
+    "esModuleInterop": true,
+    // List of library files to be included in the compilation.
+    "lib": ["dom", "esnext", "es2017.object"],
+    // Support JSX in .tsx files: "react", "preserve", "react-native". See JSX.
+    "jsx": "react",
+    // Specify module code generation: "None", "CommonJS", "AMD", "System", "UMD", "ES6", "ES2015" or "ESNext".
+    "module": "ES6",
+    // Determine how modules get resolved. Either "Node" for Node.js/io.js style resolution, or "Classic"
+    "moduleResolution": "node",
+    // Use the specified end of line sequence to be used when emitting files: "crlf" (windows) or "lf" (unix).”
+    "newLine": "LF",
+    // Do not emit outputs.
+    "noEmit": false,
+    // Raise error on expressions and declarations with an implied any type.
+    "noImplicitAny": false,
+    // Report errors on unused locals.
+    "noUnusedLocals": true,
+    // Generates corresponding .map file.
+    "sourceMap": false,
+    // Redirect output structure to the directory.
+    "outDir": "./dist",
+    // Specify ECMAScript target version:
+    "target": "ESNext"
+  },
+  "exclude": ["**/node_modules/**", "**/dist/**", "coverage", "docs"]
+}
