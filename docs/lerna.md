@@ -20,6 +20,10 @@
 
 `yarn lerna version <version> --force-publish=<package> --no-git-tag-version`
 
+[lerna version 命令参考](https://github.com/lerna/lerna/tree/master/commands/version#readme)
+
 2. 发布到 npm 仓库
 
 `yarn lerna publish from-package --force-publish`
+
+[lerna publish 命令参考](https://github.com/lerna/lerna/tree/master/commands/publish#readme)
