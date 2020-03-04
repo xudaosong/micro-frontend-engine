@@ -5,7 +5,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import singleSpaReact from "single-spa-react";
-import Root from "./root.jsx";
+import Root from "./root";
+
+function domElementGetter() {
+  // Make sure there is a div for us to render into
+  let el = document.getElementById("reactApp");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "reactApp";
+    document.body.appendChild(el);
+  }
+
+  return el;
+}
 
 const reactLifecycles = singleSpaReact({
   React,
@@ -24,16 +36,4 @@ export function mount(props) {
 
 export function unmount(props) {
   return reactLifecycles.unmount(props);
-}
-
-function domElementGetter() {
-  // Make sure there is a div for us to render into
-  let el = document.getElementById("reactApp");
-  if (!el) {
-    el = document.createElement("div");
-    el.id = "reactApp";
-    document.body.appendChild(el);
-  }
-
-  return el;
 }

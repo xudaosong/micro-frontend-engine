@@ -1,5 +1,5 @@
-import vueApp from '../src/vue-app';
-
-describe('vue-app', () => {
-    it('needs tests');
+describe("vue-app", () => {
+  test("adds 1 + 2 to equal 3", () => {
+    expect(1 + 2).toBe(3);
+  });
 });

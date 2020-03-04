@@ -1,7 +1,11 @@
 # Logs
-yarn.lock
 lerna-debug.log
+yarn.lock
 yarn-error.log
 
+# Configs
+jira.config.json
+
 # Dependency directories
-node_modules/
+coverage
+node_modules
