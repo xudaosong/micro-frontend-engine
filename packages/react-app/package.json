@@ -40,7 +40,7 @@
     "rollup": "1.27.10",
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-node-resolve": "5.2.0",
-    "webpack": "4.41.2",
+    "webpack": "5.94.0",
     "webpack-cli": "3.3.10"
   },
   "gitHead": "c74b3aee32e148df4ba066825469371713e8f598"
