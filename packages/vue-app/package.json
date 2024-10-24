@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "single-spa-vue": "1.5.4",
-    "vue": "2.6.10"
+    "vue": "3.0.0"
   },
   "devDependencies": {
     "rollup": "1.27.10",
